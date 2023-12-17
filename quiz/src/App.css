@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Mina&display=swap');
+
+body{
+  font-family: 'Mina', sans-serif;
+}
+
+#root {
+  width: 100vw;
+  height: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+}
+
+
+
+.read-the-docs {
+  color: #888;
+}
+
+.App{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Home{
+  height: 250px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(55, 55, 55);
+  border: 2px solid gray  ;
+  box-shadow: 3px 0px 3px 3px black ;
+}
+
+.Play-button{
+  background-color: green;
+  width: 100px;
+}
+
+.Quiz{
+  background-color: rgb(55, 55, 55);
+  border: 2px solid gray;
+  box-shadow: 3px 0px 3px 3px black ;
+  height: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.grid{
+  width: 90vh;
+  height: 40%;
+  display: grid;
+  align-items: center;
+  place-items: center;
+  grid-template-columns: repeat(2,1fr);
+  gap: 50px;
+  margin-bottom: 50px;
+  background-color: rgb(58, 58, 58);
+  border: 2px solid gray;
+  box-shadow: 5px 0px 5px 5px black ;
+  border-radius: 2px;
+}
+
+.grid>button{
+  background-color: gray;
+}
+
+.Quiz-button{
+  width: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.Result{
+  width: 100%;
+  height: 1000px;
+  background-color: rgb(55, 55, 55);
+  border: 2px solid gray;
+  box-shadow: 3px 0px 3px 3px black ; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Result-Box{
+  height:65%;
+  width: 60%;
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-around;
+  background-color: rgb(55, 55, 55);
+  border: 2px solid gray;
+  box-shadow: 5px 0px 5px 5px black ;
+  border-radius: 2px;
+}
+
+.Result-Box:hover{
+  border: 3px solid;
+  border-color: white;
+}
+
+
+.detail{
+  width: 100%;
+  height:100px;
+  display: flex ;
+  align-items: center;
+  margin-left: 30px;
+
+}
+
+.detail-text-1{
+  width: 80%;
+  text-align: start;
+  text-indent: 50px;
+}
+.detail-text-2{
+  width: 20%;
+  display: flex;
+}
+
+.Result-Buttons{
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+}
